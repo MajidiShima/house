@@ -1,8 +1,8 @@
-public class ceiling {
+public class Ceiling {
     private String style;
     private String name;
 
-    public ceiling(String style, String name) {
+    public Ceiling(String style, String name) {
         this.style = style;
         this.name = name;
     }

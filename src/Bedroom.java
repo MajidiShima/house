@@ -1,15 +1,15 @@
-public class bedroom {
+public class Bedroom {
     private String name;
-    private wall wall1;
-    private wall wall2;
-    private wall wall3;
-    private wall wall4;
-    private ceiling ceiling;
-    private bed bed;
-    private  lamp lamp;
+    private Wall wall1;
+    private Wall wall2;
+    private Wall wall3;
+    private Wall wall4;
+    private Ceiling ceiling;
+    private Bed bed;
+    private Lamp lamp;
 
 
-    public bedroom(String name, wall wall1, wall wall2, wall wall3, wall wall4, ceiling ceiling, bed bed, lamp lamp) {
+    public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp) {
         this.name = name;
         this.wall1 = wall1;
         this.wall2 = wall2;
@@ -27,31 +27,31 @@ public class bedroom {
         return name;
     }
 
-    public wall getWall1() {
+    public Wall getWall1() {
         return wall1;
     }
 
-    public wall getWall2() {
+    public Wall getWall2() {
         return wall2;
     }
 
-    public wall getWall3() {
+    public Wall getWall3() {
         return wall3;
     }
 
-    public wall getWall4() {
+    public Wall getWall4() {
         return wall4;
     }
 
-    public ceiling getCeiling() {
+    public Ceiling getCeiling() {
         return ceiling;
     }
 
-    public bed getBed() {
+    public Bed getBed() {
         return bed;
     }
 
-    public lamp getLamp() {
+    public Lamp getLamp() {
         return lamp;
     }
 

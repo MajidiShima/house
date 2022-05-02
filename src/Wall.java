@@ -1,4 +1,4 @@
-public class wall {
+public class Wall {
 
     private String direction;
 
@@ -6,7 +6,7 @@ public class wall {
     private int with;
     private int color;
 
-    public wall(String direction, int high, int with, int color) {
+    public Wall(String direction, int high, int with, int color) {
         this.direction = direction;
         this.high = high;
         this.with = with;

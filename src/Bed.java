@@ -1,11 +1,11 @@
-public class bed {
+public class Bed {
     private String style;
     private int pillows;
     private int height;
     private int sheets;
     private int quilt;
 
-    public bed(String style, int pillows, int height, int sheets, int quilt) {
+    public Bed(String style, int pillows, int height, int sheets, int quilt) {
         this.style = style;
         this.pillows = pillows;
         this.height = height;
