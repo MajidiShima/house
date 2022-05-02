@@ -13,6 +13,7 @@ public class Array {
         }
 
         System.out.println("The average is : " + averageArray(myArray));
+        scanner.close();
 
     }
 
