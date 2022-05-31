@@ -35,6 +35,5 @@ public class Array {
         //why?
     }
 
-    //scanner chera close nemisheh?
 
 }
