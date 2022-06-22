@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>abstactInterface.Bird</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">abstactInterface.AbstrAnimal</node>
+    <node x="9.0" y="151.0">abstactInterface.Bird</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abstactInterface.Bird" target="abstactInterface.AbstrAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="67.0" y="125.5" />
+  <SelectedNodes>
+    <node>abstactInterface.Bird</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
